@@ -1,0 +1,115 @@
+.sidebar {
+  padding: 3vh 3vh;
+  border-right: 1px solid rgb(211, 211, 211);
+  height: 100vh;
+  overflow-y: scroll;
+  width: 23vw;
+
+  h1{
+    text-align: center;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgb(214, 214, 214);
+  }
+
+  // section => searchbar
+  .sidebar__searchBar {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    background: rgb(241, 241, 241);
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    i {
+      margin-right: 8px;
+    }
+
+    input {
+      border: none;
+      background: transparent;
+      flex: 1;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  // section => marketplace_listing
+  .sidebar__marketplaceListing {
+    margin: 2vh 0;
+
+    .item {
+      background: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      padding: 10px 1vw;
+      cursor: pointer;
+      width: 100%;
+      font-size: 15px;
+      justify-content: left;
+      text-transform: initial;
+      i {
+        margin-right: 10px;
+        background: rgb(240, 240, 240);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-top: 2px;
+      }
+
+      &.active {
+        background: rgb(246, 246, 246);
+
+        i {
+          background: #78e08f;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // section => categoryListing
+  .sidebar_categoryListing {
+    padding: 2vh 0;
+
+    h3 {
+      color: #4a4a4a;
+      margin-bottom: 10px;
+    }
+
+    .item {
+      background: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      padding: 10px 1vw;
+      cursor: pointer;
+      width: 100%;
+      font-size: 15px;
+      justify-content: left;
+      text-transform: initial;
+      i {
+        margin-right: 10px;
+        background: rgb(240, 240, 240);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-top: 2px;
+      }
+
+      &.active {
+        background: rgb(246, 246, 246);
+
+        i {
+          background: #78e08f;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

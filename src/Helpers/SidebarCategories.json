@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Vehicles",
+        "icon": "ri-bike-line",
+        "activeName": "vehicles"
+    },
+    {
+        "name": "Clothing",
+        "icon": "ri-shirt-line",
+        "activeName": "clothing"
+    },
+    {
+        "name": "Electroincs",
+        "icon": "ri-calculator-line",
+        "activeName": "electronics"
+    },
+    {
+        "name": "Beauty & Health",
+        "icon": "ri-magic-line",
+        "activeName": "beauty-health"
+    },
+    {
+        "name": "Computer & Peripherals",
+        "icon": "ri-macbook-line",
+        "activeName": "computer-peripherals"
+    },
+    {
+        "name": "Family",
+        "icon": "ri-home-heart-line",
+        "activeName": "family"
+    },
+    {
+        "name": "Toys & Games",
+        "icon": "ri-gamepad-line",
+        "activeName": "toys-games"
+    }
+]

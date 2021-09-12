@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Browse All",
+        "icon": "ri-store-2-line",
+        "activeName": "browse-all"
+    },
+    {
+        "name": "Notifications",
+        "icon": "ri-notification-line",
+        "activeName": "notifications"
+    },
+    {
+        "name": "Inbox",
+        "icon": "ri-message-3-line",
+        "activeName": "inbox"
+    },
+    {
+        "name": "Your Account",
+        "icon": "ri-login-circle-line",
+        "activeName": "your-account"
+    }
+]

@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import "./index.scss";
+// @components
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// @packages
+import ReactDOM from "react-dom";
+import "remixicon/fonts/remixicon.css";
+import ActiveSidebarDataLayer from "./Context/ActiveSidebarItem";
+// @cont3xt api
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ActiveSidebarDataLayer>
+      <App />
+    </ActiveSidebarDataLayer>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
