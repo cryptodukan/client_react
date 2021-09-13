@@ -1,0 +1,106 @@
+[
+    {
+        "productName": "Nike Air Force 1 NDESTRUKT",
+        "productPrice": 92.19,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 92.19
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_1.jpg"
+    },
+    {
+        "productName": "Nike Space Hippie 04",
+        "productPrice": 49.04,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": true,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_2.jpg"
+    },
+    {
+        "productName": "Nike Air Zoom Pegasus 37 A.I.R.",
+        "productPrice": 19.14,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_3.jpg"
+    },
+    {
+        "productName": "Nike Blazer Low 77 Vintage",
+        "productPrice": 50.93,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_4.jpg"
+    },
+    {
+        "productName": "Air Jordan XXXV PF",
+        "productPrice": 77.05,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 28.78
+        },
+        "isNew": true,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_9.jpg"
+    },
+    {
+        "productName": "Kyrie 7 EP Sisterhood",
+        "productPrice": 37.18,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_11.jpg"
+    },
+    {
+        "productName": "Nike Air Zoom Pegasus 37 A.I.R.",
+        "productPrice": 19.14,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_3.jpg"
+    },
+    {
+        "productName": "Nike Blazer Low 77 Vintage",
+        "productPrice": 50.93,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_4.jpg"
+    }
+]

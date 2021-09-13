@@ -1,0 +1,41 @@
+.browseAll {
+  // section => title
+  .browseAll__topPicks__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .browseAll__topPicks__title__filters {
+      display: flex;
+
+      .MuiButton-root {
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+
+        i {
+          margin-left: 8px;
+        }
+
+        select {
+          border: none;
+          background: transparent;
+          margin-left: 6px;
+
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  // section => items
+  .browseAll__topPicks__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
