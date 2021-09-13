@@ -3,6 +3,7 @@ import "./style.scss";
 
 // @packages
 import { Button } from "@material-ui/core";
+// import { useAuth0 } from '@auth0/auth0-react'
 
 // @helpers
 import Categories from "../../Helpers/SidebarCategories.json";
@@ -13,6 +14,11 @@ import { useActiveSidebarDataLayerValue } from "../../Context/ActiveSidebarItem"
 
 export default function Sidebar() {
   const [{ active }, dispatch] = useActiveSidebarDataLayerValue();
+  // const {loginWithRedirect, isAuthenticated} = useAuth0();
+
+  // const auth = () => {
+  //   loginWithRedirect()
+  // }
 
   // @dev function to dispatch active tabs
   // @param active bar name

@@ -15,6 +15,7 @@ export default function ProductCard(item) {
     isNew,
     productImage,
   } = item.item;
+
   return (
     <div className="productCard">
       {/* section => product card image container */}

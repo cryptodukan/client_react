@@ -78,21 +78,21 @@
         "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_11.jpg"
     },
     {
-        "productName": "Nike Air Zoom Pegasus 37 A.I.R.",
-        "productPrice": 19.14,
+        "productName": "Nike DBreak-Type",
+        "productPrice": 60.62,
         "isOutOfStock": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "onSale": true,
         "discount": {
-            "isDiscounted": true,
+            "isDiscounted": false,
             "initialPrice": 27.27
         },
         "isNew": false,
-        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_3.jpg"
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_16.jpg"
     },
     {
-        "productName": "Nike Blazer Low 77 Vintage",
-        "productPrice": 50.93,
+        "productName": "NikeCourt Royale",
+        "productPrice": 95.52,
         "isOutOfStock": true,
         "isFavorite": false,
         "onSale": false,
@@ -101,6 +101,6 @@
             "initialPrice": 50.93
         },
         "isNew": false,
-        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_4.jpg"
+        "productImage": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_22.jpg"
     }
 ]

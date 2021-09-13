@@ -13,6 +13,7 @@ import { useActiveSidebarDataLayerValue } from "../../Context/ActiveSidebarItem"
 
 // @Pages
 import BrowseAll from "../../Pages/BrowseAllProducts/BrowseAll";
+import CheckoutButton from "../../Components/CheckoutButton/CheckoutButton";
 
 export default function Home() {
   const [{ active }] = useActiveSidebarDataLayerValue();
@@ -33,6 +34,8 @@ export default function Home() {
         {
           active === 'browse-all' && <BrowseAll/>
         }
+
+        <CheckoutButton/>
       </div>
     </div>
   );

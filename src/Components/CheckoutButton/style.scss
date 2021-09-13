@@ -1,0 +1,31 @@
+.checkoutButton {
+  position: absolute;
+  right: 0;
+  top: 40vh;
+  z-index: 1;
+  background: #fff;
+  box-shadow: -16px 7px 33px -19px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -16px 7px 33px -19px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -16px 7px 33px -19px rgba(0, 0, 0, 0.63);
+  border-radius: 16px 0 0 16px;
+
+  i {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+  .MuiButton-root {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    min-width: 0;
+    padding: 6px 20px 6px 25px;
+    background: #2ecc71;
+    color: #fff;
+    text-align: center;
+
+    &:hover {
+        background: #27ae60;
+    }
+  }
+}
