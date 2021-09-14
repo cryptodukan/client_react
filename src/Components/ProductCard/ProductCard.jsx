@@ -9,7 +9,8 @@ import { useActiveSidebarDataLayerValue } from "../../Context/ActiveSidebarItem"
 
 // @dev props from browseall page
 export default function ProductCard(item) {
-  const [{}, dispatch] = useActiveSidebarDataLayerValue();
+  const [{active}, dispatch] = useActiveSidebarDataLayerValue();
+  console.log(active)
 
   const {
     productName,

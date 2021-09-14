@@ -5,10 +5,25 @@ import "./style.scss";
 import { Button } from "@material-ui/core";
 
 export default function SingleProductFocused() {
+  const [productQuantity, setProductQuantity] = React.useState(1);
+
+  const handleProductQuantity = (e) => {
+    switch (e) {
+      case "decrease":
+        if (productQuantity > 1) return setProductQuantity((prev) => --prev);
+        else return setProductQuantity((prev) => prev);
+
+      case "increase":
+        return setProductQuantity((prev) => ++prev);
+
+      default:
+        return setProductQuantity((prev) => prev);
+    }
+  };
   return (
     <div className="singleProductFocused">
-      {/* <div className="singleProductFocused__title">
-        section => free delivery
+      <div className="singleProductFocused__title">
+        {/* section => free delivery */}
         <div className="singleProductFocused__title__freeDelivery">
           <div>
             <b>Free Delivery</b>
@@ -17,17 +32,24 @@ export default function SingleProductFocused() {
           <i className="ri-truck-line"></i>
         </div>
 
-        section => on time delivery
+        {/* section => on time delivery */}
         <div className="singleProductFocused__title__onTimeDelivery">
           <div>
             <p>Shop Online</p>
-            <b>
-              get your shopping on time
-            </b>
+            <b>get your shopping on time</b>
           </div>
           <i className="ri-timer-line"></i>
         </div>
-      </div> */}
+
+        {/* section => worldwide delivery */}
+        <div className="singleProductFocused__title__worldWideDelivery">
+          <div>
+            <b>Worldwide Delivery</b>
+            <p>with guaranteed safe product</p>
+          </div>
+          <i className="ri-global-line"></i>
+        </div>
+      </div>
 
       {/* section => product */}
       <div className="singleProductFocused__product">
@@ -41,9 +63,30 @@ export default function SingleProductFocused() {
 
         {/* section => product detail */}
         <div className="singleProductFocused__productDetails">
-          <h1>1975 Porche 911</h1>
-          <h3>25000 USDT</h3>
+          {/* section => title */}
+          <div className="title">
+            {/* section */}
+            <div>
+              <h1>1975 Porche 911</h1>
+              <h3>
+                <span className="discounted">26000 USDT</span> 25000 USDT
+              </h3>
+            </div>
 
+            {/* section => product Quantity */}
+            <div className="product_quantity">
+              <p>Quantity</p>
+              <Button onClick={() => handleProductQuantity("decrease")}>
+                -
+              </Button>
+              <input type="text" value={productQuantity} disabled />
+              <Button onClick={() => handleProductQuantity("increase")}>
+                +
+              </Button>
+            </div>
+          </div>
+
+          {/* section => product colors */}
           <div className="product_colors">
             {[
               "rgba(231, 76, 60,1.0)",
@@ -81,8 +124,13 @@ export default function SingleProductFocused() {
           </div>
 
           <div className="checkout">
-            <Button className="checkout__addToCart">Add to shopping cart</Button>
-            <Button className="checkout__heart"><i className="ri-heart-3-line"></i></Button>
+            <Button className="checkout__addToCart">
+              <span>Add to cart</span>&nbsp;
+              <i class="ri-shopping-cart-2-line"></i>
+            </Button>
+            <Button className="checkout__heart">
+              <i className="ri-heart-3-line"></i>
+            </Button>
           </div>
         </div>
       </div>
