@@ -10,6 +10,8 @@ import ProductCard from "../../Components/ProductCard/ProductCard";
 
 // @helpers
 import TopPickItems from "../../Helpers/TopPickProducts.json";
+import ToysAndGames from "../../Helpers/ToysAndGames.json";
+import VehiclesProducts from "../../Helpers/VehiclesProducts.json";
 
 export default function BrowseAll() {
   return (
@@ -47,34 +49,45 @@ export default function BrowseAll() {
 
       <hr />
 
-      {/* section => family & toys */}
-      <div className="browseAll__familyAndToys">
-        {/* section => family & toys => title */}
-        <div className="browseAll__familyAndToys__title">
-          <div style={{display: 'flex', alignItems: 'center'}}>
-            <h3>Family & Toys</h3> <i style={{marginLeft: "5px", fontSize: "25px"}} className="ri-gamepad-line"></i>
-          </div>
-
-          <div className="browseAll__familyAndToys__title__filters">
-            <FilterDrawer />
-
-            <Button>
-              <span>
-                Sort By:
-                <select name="" id="" defaultValue="featured">
-                  <option value="featured">Featured</option>
-                  <option value="newest">Newest</option>
-                  <option value="price-htl">Price: High to Low</option>
-                  <option value="price-lth">Price: Low to High</option>
-                </select>
-              </span>
-            </Button>
+      {/* section => toys & games */}
+      <div className="browseAll__ToysAndGames">
+        {/* section => toys & games => title */}
+        <div className="browseAll__ToysAndGames__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Toys & Games</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-gamepad-line"
+            ></i>
           </div>
         </div>
 
-        {/* section => family & toys => items */}
-        <div className="browseAll__familyAndToys__items">
-          {TopPickItems.map((item) => (
+        {/* section => toys & games => items */}
+        <div className="browseAll__ToysAndGames__items">
+          {ToysAndGames.map((item) => (
+            <ProductCard key={item.productName} item={item} />
+          ))}
+        </div>
+      </div>
+
+      <hr />
+
+      {/* section => vehicles */}
+      <div className="browseAll__vehicles">
+        {/* section => vehicles => title */}
+        <div className="browseAll__vehicles__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Vehicles</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-bike-line"
+            ></i>
+          </div>
+        </div>
+
+        {/* section => vehicles => items */}
+        <div className="browseAll__vehicles__items">
+          {VehiclesProducts.map((item) => (
             <ProductCard key={item.productName} item={item} />
           ))}
         </div>

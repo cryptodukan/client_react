@@ -1,17 +1,19 @@
 .browseAll {
-hr {
-  border: none;
-  border-top: 1px solid grey;
-  margin: 20px 0 30px 0;
-}
+  hr {
+    border: none;
+    border-top: 1px solid grey;
+    margin: 20px 0 30px 0;
+  }
   // section => title
-  .browseAll__topPicks__title, .browseAll__familyAndToys__title {
+  .browseAll__topPicks__title,
+  .browseAll__ToysAndGames__title,
+  .browseAll__vehicles__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 
-    .browseAll__topPicks__title__filters, .browseAll__familyAndToys__title__filters {
+    .browseAll__topPicks__title__filters {
       display: flex;
 
       .MuiButton-root {
@@ -39,7 +41,9 @@ hr {
   }
 
   // section => items
-  .browseAll__topPicks__items, .browseAll__familyAndToys__items {
+  .browseAll__topPicks__items,
+  .browseAll__ToysAndGames__items,
+  .browseAll__vehicles__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

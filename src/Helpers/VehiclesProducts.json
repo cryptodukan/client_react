@@ -1,0 +1,106 @@
+[
+    {
+        "productName": "Vespa 2011 Edition",
+        "productPrice": 2500,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 25
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1516423485787-e433022a4801?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHZlaGljbGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Royal Enfield 500cc",
+        "productPrice": 3900,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1601574013379-a98bfb813376?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+    },
+    {
+        "productName": "2002 Mustang GT",
+        "productPrice": "50K",
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": "55K"
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1603954765231-980a39c747ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        "productName": "Okai Electronic Scooter",
+        "productPrice": "60K",
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1605798411085-e1d6654624ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjA5fHx2ZWhpY2xlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Ford Fiesta St",
+        "productPrice": "60K",
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": "67K"
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1559751989-af68bd86bdc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "productName": "B-Twin MTB",
+        "productPrice": 2500,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1597600175385-3d3d3df0e63a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1418&q=80"
+    },
+    {
+        "productName": "KTM Duke 200cc 2018 Edition",
+        "productPrice": 2300,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1610553556003-9b2ae8ef1b8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80"
+    },
+    {
+        "productName": "Dukati Dragster 800rr",
+        "productPrice": "45K",
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1611599616069-cb135f320f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+    }
+]

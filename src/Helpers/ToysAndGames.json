@@ -1,0 +1,106 @@
+[
+    {
+        "productName": "Naruto Headband Leaf Village Metal Plated Collectibles And Cosplay",
+        "productPrice": 25,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 25
+        },
+        "isNew": false,
+        "productImage": "https://static-01.daraz.com.np/p/ae7ed31b832dba4929bcf15dc49997f7.jpg"
+    },
+    {
+        "productName": "Cute Spring Dancing Emoji Dolls, Shaking Head Dolls, Cute Head",
+        "productPrice": 0.94,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": true,
+        "productImage": "https://static-01.daraz.com.np/p/3ef0505288dbde582c094b510cb3a07e.jpg"
+    },
+    {
+        "productName": "Egg designed Piggy Bank",
+        "productPrice": 30,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://static-01.daraz.com.np/p/6963fd4fcaee141006c62f552712bca7.jpg"
+    },
+    {
+        "productName": "Lego Limited Edition",
+        "productPrice": 50.93,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG95c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Batman Lego with Bat Car",
+        "productPrice": 77.05,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 28.78
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHRveXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Teddy Pair | Winnie and Pooh",
+        "productPrice": 37.18,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1549501602-52168bb8f653?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRveXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Pure woolen Cat Ball",
+        "productPrice": 60.62,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1621716347723-b726a26ba4ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Pokemon Card and Ball Duo",
+        "productPrice": 95.52,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fHRveXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    }
+]
