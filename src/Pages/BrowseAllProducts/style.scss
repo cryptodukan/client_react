@@ -9,7 +9,8 @@
   .browseAll__ToysAndGames__title,
   .browseAll__vehicles__title,
   .browseAll__clothing__title,
-  .browseAll__electronics__title {
+  .browseAll__electronics__title,
+  .browseAll__beautyAndHealth__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +48,8 @@
   .browseAll__ToysAndGames__items,
   .browseAll__vehicles__items,
   .browseAll__clothing__items,
-  .browseAll__electronics__items {
+  .browseAll__electronics__items,
+  .browseAll__beautyAndHealth__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

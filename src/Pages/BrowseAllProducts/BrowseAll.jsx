@@ -14,6 +14,7 @@ import ToysAndGames from "../../Helpers/ToysAndGames.json";
 import VehiclesProducts from "../../Helpers/VehiclesProducts.json";
 import BrowseAllClothingProducts from "../../Helpers/BrowseAllClothingProducts.json";
 import BrowseAllElectronics from "../../Helpers/BrowseAllElectronics.json";
+import BrowseAllBeautyHealthProducts from "../../Helpers/BrowseAllBeautyHealthProducts.json";
 
 export default function BrowseAll() {
   return (
@@ -136,6 +137,29 @@ export default function BrowseAll() {
         {/* section => electronics => items */}
         <div className="browseAll__electronics__items">
           {BrowseAllElectronics.map((item) => (
+            <ProductCard key={item.productName} item={item} />
+          ))}
+        </div>
+      </div>
+      
+      <hr />
+
+      {/* section => beauty & health */}
+      <div className="browseAll__beautyAndHealth">
+        {/* section => beauty & health => title */}
+        <div className="browseAll__beautyAndHealth__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Beauty & Health</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-magic-line"
+            ></i>
+          </div>
+        </div>
+
+        {/* section => beauty & health => items */}
+        <div className="browseAll__beautyAndHealth__items">
+          {BrowseAllBeautyHealthProducts.map((item) => (
             <ProductCard key={item.productName} item={item} />
           ))}
         </div>
