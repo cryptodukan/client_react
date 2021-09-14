@@ -14,6 +14,7 @@ import { useActiveSidebarDataLayerValue } from "../../Context/ActiveSidebarItem"
 // @Pages
 import BrowseAll from "../../Pages/BrowseAllProducts/BrowseAll";
 import CheckoutButton from "../../Components/CheckoutButton/CheckoutButton";
+import SingleProductFocused from "../../Pages/SingleProductFocused/Index";
 
 export default function Home() {
   const [{ active }] = useActiveSidebarDataLayerValue();
@@ -33,6 +34,11 @@ export default function Home() {
         {/* section => main => browse all */}
         {
           active === 'browse-all' && <BrowseAll/>
+        }
+        
+        {/* section => main => product focused */}
+        {
+          active === 'product-focused' && <SingleProductFocused/>
         }
 
         <CheckoutButton/>

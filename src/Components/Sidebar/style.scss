@@ -42,6 +42,10 @@
   .sidebar__marketplaceListing {
     margin: 2vh 0;
 
+    a{
+      text-decoration: none;
+    }
+
     .item {
       background: transparent;
       border: none;

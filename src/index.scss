@@ -8,7 +8,7 @@
   font-family: "Urbanist", sans-serif;
   user-select: none;
   -moz-user-select: none;
--webkit-user-select: none;
+  -webkit-user-select: none;
 
   // hide scrollbar
   -ms-overflow-style: none; /* IE and Edge */
@@ -16,8 +16,4 @@
   &::-webkit-scrollbar {
     display: none;
   }
-}
-
-img {
-  pointer-events: none;
 }

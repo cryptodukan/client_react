@@ -2,21 +2,25 @@
     {
         "name": "Browse All",
         "icon": "ri-store-2-line",
-        "activeName": "browse-all"
+        "activeName": "browse-all",
+        "route": "/"
     },
     {
         "name": "Notifications",
         "icon": "ri-notification-line",
-        "activeName": "notifications"
+        "activeName": "notifications",
+        "route": "/notification"
     },
     {
         "name": "Inbox",
         "icon": "ri-message-3-line",
-        "activeName": "inbox"
+        "activeName": "inbox",
+        "route": "/inbox"
     },
     {
         "name": "Your Account",
         "icon": "ri-login-circle-line",
-        "activeName": "your-account"
+        "activeName": "your-account",
+        "route": "/account"
     }
 ]

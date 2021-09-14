@@ -1,7 +1,8 @@
-import { Button } from "@material-ui/core";
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.scss";
+
+// @components
+import { Button } from "@material-ui/core";
 
 // @dev props from browseall page
 export default function ProductCard(item) {
@@ -20,7 +21,9 @@ export default function ProductCard(item) {
     <div className="productCard">
       {/* section => product card image container */}
       <div className="productCard__imgContainer">
-        <Link to="#"><img src={productImage} alt={productName} unselectable="on"/></Link>
+        <Button>
+        <img src={productImage} alt={productName}/>
+          </Button>
 
         <div
           className={`productCard__ticker ${isOutOfStock && "outOfStock"} ${
@@ -37,11 +40,11 @@ export default function ProductCard(item) {
       <div className="productCard__description">
         {/* section => product description => product name */}
         <div className="productCard__description__productName">
-          <Link to="#">
+            <Button>
             {productName.length >= 23
               ? `${productName.slice(0, 23)}...`
               : productName}
-          </Link>
+            </Button>
         </div>
 
         {/* section => product description => product price */}

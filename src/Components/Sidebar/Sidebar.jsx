@@ -41,13 +41,13 @@ export default function Sidebar() {
       {/* section => marketplace listing */}
       <div className="sidebar__marketplaceListing">
         {Marketplaces.map((item) => (
-          <Button
-          onClick={() => handleSidebarActiveDispatch(item.activeName)}
-            key={item.name}
-            className={`item ${active === item.activeName && "active"}`}
-          >
-            <i className={item.icon}></i> <span>{item.name}</span>
-          </Button>
+            <Button
+              onClick={() => handleSidebarActiveDispatch(item.activeName)}
+              key={item.name}
+              className={`item ${active === item.activeName && "active"}`}
+            >
+              <i className={item.icon}></i> <span>{item.name}</span>
+            </Button>
         ))}
       </div>
       <hr />
@@ -57,7 +57,7 @@ export default function Sidebar() {
         <h3>Categories</h3>
         {Categories.map((category) => (
           <Button
-          onClick={() => handleSidebarActiveDispatch(category.activeName)}
+            onClick={() => handleSidebarActiveDispatch(category.activeName)}
             key={category.name}
             className={`item ${active === category.activeName && "active"}`}
           >
