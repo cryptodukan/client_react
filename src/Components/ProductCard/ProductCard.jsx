@@ -20,7 +20,7 @@ export default function ProductCard(item) {
     <div className="productCard">
       {/* section => product card image container */}
       <div className="productCard__imgContainer">
-        <img src={productImage} alt={productName} />
+        <Link to="#"><img src={productImage} alt={productName} /></Link>
 
         <div
           className={`productCard__ticker ${isOutOfStock && "outOfStock"} ${
