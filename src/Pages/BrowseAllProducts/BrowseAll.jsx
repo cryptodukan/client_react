@@ -12,6 +12,7 @@ import ProductCard from "../../Components/ProductCard/ProductCard";
 import TopPickItems from "../../Helpers/TopPickProducts.json";
 import ToysAndGames from "../../Helpers/ToysAndGames.json";
 import VehiclesProducts from "../../Helpers/VehiclesProducts.json";
+import BrowseAllClothingProducts from "../../Helpers/BrowseAllClothingProducts.json";
 
 export default function BrowseAll() {
   return (
@@ -88,6 +89,29 @@ export default function BrowseAll() {
         {/* section => vehicles => items */}
         <div className="browseAll__vehicles__items">
           {VehiclesProducts.map((item) => (
+            <ProductCard key={item.productName} item={item} />
+          ))}
+        </div>
+      </div>
+      
+      <hr />
+
+      {/* section => clothing */}
+      <div className="browseAll__clothing">
+        {/* section => clothing => title */}
+        <div className="browseAll__clothing__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Clothing</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-shirt-line"
+            ></i>
+          </div>
+        </div>
+
+        {/* section => clothing => items */}
+        <div className="browseAll__clothing__items">
+          {BrowseAllClothingProducts.map((item) => (
             <ProductCard key={item.productName} item={item} />
           ))}
         </div>

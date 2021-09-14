@@ -1,0 +1,106 @@
+[
+    {
+        "productName": "Woolen winter collection",
+        "productPrice": 21.99,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 25
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "productName": "Clothes Hanger Wooden",
+        "productPrice": 250,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1501127122-f385ca6ddd9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        "productName": "Nike Air Limited Edition",
+        "productPrice": 76,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 78.99
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+    },
+    {
+        "productName": "Casual Wear Combo",
+        "productPrice": 55,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+    },
+    {
+        "productName": "Summer Combination",
+        "productPrice": 79,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 85
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1550238311-f673f0ef79f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+    },
+    {
+        "productName": "Urban Wear Hat",
+        "productPrice": 4.99,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        "productName": "Custom printed Tote Bag",
+        "productPrice": 7,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1578682443756-573e32709f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+        "productName": "Bomber Jacket Water Proof",
+        "productPrice": 25,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80"
+    }
+]
