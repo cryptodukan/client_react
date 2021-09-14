@@ -1,0 +1,106 @@
+[
+    {
+        "productName": "iMac Station",
+        "productPrice": 21.99,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 25
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80"
+    },
+    {
+        "productName": "Apple Magic Wireless Keyboard",
+        "productPrice": 250,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80"
+    },
+    {
+        "productName": "Acer 120Hz 30inch Monitor",
+        "productPrice": 76,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 78.99
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1563605990484-8d4c1fa9c3d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "productName": "GeoTech Wireless Mouse",
+        "productPrice": 55,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1619334084724-eefc4ee92e35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+        "productName": "Sony WH- 1000XM4 Headphone",
+        "productPrice": 79,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": true,
+            "initialPrice": 85
+        },
+        "isNew": true,
+        "productImage": "https://images.unsplash.com/photo-1614860243518-c12eb2fdf66c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"
+    },
+    {
+        "productName": "Dell Rotatable Monitor",
+        "productPrice": 4.99,
+        "isOutOfStock": false,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 49.04
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1598978483528-fd57466ab0ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80"
+    },
+    {
+        "productName": "Google Home Assistant",
+        "productPrice": 7,
+        "isOutOfStock": false,
+        "isFavorite": true,
+        "onSale": true,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 27.27
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1519558260268-cde7e03a0152?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+        "productName": "Meadow F7 Micro Hack Kit Pro by Wilderness Labs",
+        "productPrice": 25,
+        "isOutOfStock": true,
+        "isFavorite": false,
+        "onSale": false,
+        "discount": {
+            "isDiscounted": false,
+            "initialPrice": 50.93
+        },
+        "isNew": false,
+        "productImage": "https://images.unsplash.com/photo-1596828262930-2bc07c0030c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    }
+]

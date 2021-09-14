@@ -15,6 +15,8 @@ import VehiclesProducts from "../../Helpers/VehiclesProducts.json";
 import BrowseAllClothingProducts from "../../Helpers/BrowseAllClothingProducts.json";
 import BrowseAllElectronics from "../../Helpers/BrowseAllElectronics.json";
 import BrowseAllBeautyHealthProducts from "../../Helpers/BrowseAllBeautyHealthProducts.json";
+import BrowseAllComputerProducts from "../../Helpers/BrowseAllComputerProducts.json";
+import BrowseAllFamilyProducts from "../../Helpers/BrowseAllFamilyProducts.json";
 
 export default function BrowseAll() {
   return (
@@ -160,6 +162,52 @@ export default function BrowseAll() {
         {/* section => beauty & health => items */}
         <div className="browseAll__beautyAndHealth__items">
           {BrowseAllBeautyHealthProducts.map((item) => (
+            <ProductCard key={item.productName} item={item} />
+          ))}
+        </div>
+      </div>
+      
+      <hr />
+
+      {/* section => Computer And Peripherals */}
+      <div className="browseAll__computerAndPeripherals">
+        {/* section => Computer And Peripherals => title */}
+        <div className="browseAll__computerAndPeripherals__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Computer And Peripherals</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-macbook-line"
+            ></i>
+          </div>
+        </div>
+
+        {/* section => Computer And Peripherals => items */}
+        <div className="browseAll__computerAndPeripherals__items">
+          {BrowseAllComputerProducts.map((item) => (
+            <ProductCard key={item.productName} item={item} />
+          ))}
+        </div>
+      </div>
+      
+      <hr />
+
+      {/* section => Family */}
+      <div className="browseAll__family">
+        {/* section => Family => title */}
+        <div className="browseAll__family__title">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <h3>Family</h3>{" "}
+            <i
+              style={{ marginLeft: "5px", fontSize: "25px" }}
+              className="ri-home-heart-line"
+            ></i>
+          </div>
+        </div>
+
+        {/* section => Family => items */}
+        <div className="browseAll__family__items">
+          {BrowseAllFamilyProducts.map((item) => (
             <ProductCard key={item.productName} item={item} />
           ))}
         </div>

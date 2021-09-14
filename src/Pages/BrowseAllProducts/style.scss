@@ -10,7 +10,9 @@
   .browseAll__vehicles__title,
   .browseAll__clothing__title,
   .browseAll__electronics__title,
-  .browseAll__beautyAndHealth__title {
+  .browseAll__beautyAndHealth__title,
+  .browseAll__computerAndPeripherals__title,
+  .browseAll__family__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +51,9 @@
   .browseAll__vehicles__items,
   .browseAll__clothing__items,
   .browseAll__electronics__items,
-  .browseAll__beautyAndHealth__items {
+  .browseAll__beautyAndHealth__items,
+  .browseAll__computerAndPeripherals__items,
+  .browseAll__family__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
