@@ -3,13 +3,14 @@
   width: 100%;
   background: #ffeaa7;
   color: #2d3436;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   overflow-y: hidden;
+  max-height: 30px;
 
   .MuiButton-root {
     color: #e74c3c;

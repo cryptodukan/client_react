@@ -4,8 +4,13 @@ import "./style.scss";
 // @components
 import { Button } from "@material-ui/core";
 
+// @cont3xt
+import { useActiveSidebarDataLayerValue } from "../../Context/ActiveSidebarItem";
+
 // @dev props from browseall page
 export default function ProductCard(item) {
+  const [{}, dispatch] = useActiveSidebarDataLayerValue();
+
   const {
     productName,
     productPrice,
@@ -17,13 +22,23 @@ export default function ProductCard(item) {
     productImage,
   } = item.item;
 
+  const handleDispatch = () => {
+    dispatch({
+      type: "SET_ACTIVE_BAR",
+      activeBar: "product-focused",
+    });
+
+    // @dev set product id for focused product
+    sessionStorage.setItem('focused-product', 'product id here');
+  };
+
   return (
     <div className="productCard">
       {/* section => product card image container */}
       <div className="productCard__imgContainer">
-        <Button>
-        <img src={productImage} alt={productName}/>
-          </Button>
+        <Button onClick={handleDispatch}>
+          <img src={productImage} alt={productName} />
+        </Button>
 
         <div
           className={`productCard__ticker ${isOutOfStock && "outOfStock"} ${
@@ -40,11 +55,11 @@ export default function ProductCard(item) {
       <div className="productCard__description">
         {/* section => product description => product name */}
         <div className="productCard__description__productName">
-            <Button>
+          <Button onClick={handleDispatch}>
             {productName.length >= 23
               ? `${productName.slice(0, 23)}...`
               : productName}
-            </Button>
+          </Button>
         </div>
 
         {/* section => product description => product price */}
