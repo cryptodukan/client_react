@@ -1,19 +1,20 @@
-.topbar{
-    margin: 2vh 0;
-    width: 100%;
-    background: #ffeaa7;
-    color: #2d3436;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.topbar {
+  margin: 2vh 0;
+  width: 100%;
+  background: #ffeaa7;
+  color: #2d3436;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: hidden;
 
-    .MuiButton-root{
-        color: #e74c3c;
-        padding: 0 8px;
-        min-width: 0;
-        font-size: 16px;
-    }
+  .MuiButton-root {
+    color: #e74c3c;
+    padding: 0 8px;
+    min-width: 0;
+    font-size: 16px;
+  }
 }
