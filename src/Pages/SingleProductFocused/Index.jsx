@@ -3,6 +3,10 @@ import "./style.scss";
 
 // @components
 import { Button } from "@material-ui/core";
+import ProductCard from "../../Components/ProductCard/ProductCard";
+
+// @helpers
+import VehiclesProducts from "../../Helpers/VehiclesProducts.json";
 
 export default function SingleProductFocused() {
   const [productQuantity, setProductQuantity] = React.useState(1);
@@ -98,6 +102,7 @@ export default function SingleProductFocused() {
             ))}
           </div>
 
+          {/* section => product colors */}
           <p className="product_description">
             In model year 1975, thanks to turbocharging, a particularly powerful
             version of the Porsche 911 – the 911 Turbo – came onto the market.
@@ -110,6 +115,7 @@ export default function SingleProductFocused() {
             3.3 litres, 300 hp
           </p>
 
+          {/* section => product information */}
           <div className="additional_information">
             <div>
               <i className="ri-shopping-bag-3-line"></i>
@@ -123,6 +129,7 @@ export default function SingleProductFocused() {
             <div>* 3 days free return and free exchange</div>
           </div>
 
+          {/* section => product checkout           */}
           <div className="checkout">
             <Button className="checkout__addToCart">
               <span>Add to cart</span>&nbsp;
@@ -132,6 +139,20 @@ export default function SingleProductFocused() {
               <i className="ri-heart-3-line"></i>
             </Button>
           </div>
+        </div>
+      </div>
+
+      {/* section => similar products */}
+      <div className="singleFocused_similiarProducts">
+        <h2>
+          Similar Products
+        </h2>
+
+        <div className="singleFocused_similiarProducts__items">
+          {/* @dev only list 4 items here */}
+        {VehiclesProducts.map((item, index) => (
+            index <= 3 && <ProductCard key={item.productName} item={item} />
+          ))}
         </div>
       </div>
     </div>

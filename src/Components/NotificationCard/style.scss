@@ -1,0 +1,29 @@
+.notificationCard {
+  display: flex;
+  align-items: flex-start;
+  max-width: 70vw;
+  line-height: 1.5;
+
+  .notificationCard__type {
+    background: rgb(255, 208, 208);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+    color: #4a4a4a;
+  }
+
+  .notificationCard__description {
+    flex: 1;
+
+    .notificationCard__description__timeAndDate {
+        margin-top: 10px;
+        color: grey;
+        font-size: 15px;
+    }
+  }
+}

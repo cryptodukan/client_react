@@ -1,42 +1,42 @@
 .singleProductFocused {
-    .singleProductFocused__title {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: left;
-        margin-bottom: 30px;
+  .singleProductFocused__title {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 30px;
 
-        .singleProductFocused__title__freeDelivery,
-        .singleProductFocused__title__onTimeDelivery,
-        .singleProductFocused__title__worldWideDelivery{
-            display: flex;
-            font-size: 15px;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-            background: rgba(236, 240, 241,0.4);
-            border-radius: 16px;
-            color: rgb(71, 71, 71);
-            line-height: 1.5;
-            margin-right: 20px;
+    .singleProductFocused__title__freeDelivery,
+    .singleProductFocused__title__onTimeDelivery,
+    .singleProductFocused__title__worldWideDelivery {
+      display: flex;
+      font-size: 15px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background: rgba(236, 240, 241, 0.4);
+      border-radius: 16px;
+      color: rgb(71, 71, 71);
+      line-height: 1.5;
+      margin-right: 20px;
 
-            i{
-                font-size: 30px;
-                font-weight: 400;
-                margin-left: 20px;
-            }
-        }
-
-        .singleProductFocused__title__onTimeDelivery {
-            background: rgba(46, 204, 113,0.2);
-        }
-
-        .singleProductFocused__title__worldWideDelivery {
-            background: rgba(52, 152, 219, 0.1);
-        }
+      i {
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 20px;
+      }
     }
+
+    .singleProductFocused__title__onTimeDelivery {
+      background: rgba(46, 204, 113, 0.2);
+    }
+
+    .singleProductFocused__title__worldWideDelivery {
+      background: rgba(52, 152, 219, 0.1);
+    }
+  }
 
   // section => product details
   .singleProductFocused__product {
@@ -50,6 +50,7 @@
     // section => product image
     .singleProductFocused__productImage {
       width: 40%;
+      max-height: 500px;
 
       img {
         width: 100%;
@@ -60,7 +61,6 @@
         -webkit-transition: 0.5s ease-in-out;
         transition: 0.5s ease-in-out;
         cursor: pointer;
-        overflow-y: hidden;
 
         &:hover {
           -webkit-transform: scale(1.3);
@@ -75,36 +75,36 @@
       padding: 10px 30px;
       line-height: 1.3;
 
-      .title{
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
         h3 {
-            .discounted{
-              text-decoration: line-through;
-              color: rgb(141, 141, 141);
-            }
+          .discounted {
+            text-decoration: line-through;
+            color: rgb(141, 141, 141);
+          }
         }
-  
-        .product_quantity{
-            margin: 20px 0;
-            display: flex;
-            align-items: center;
-  
-            h4{
-                margin-bottom: 10px;
-            }
-            input{
-                width: 40px;
-                height: 40px;
-                text-align: center;
-                font-size: 15px;
-            }
-  
-            .MuiButton-root{
-                height: 40px;
-            }
+
+        .product_quantity {
+          margin: 20px 0;
+          display: flex;
+          align-items: center;
+
+          h4 {
+            margin-bottom: 10px;
+          }
+          input {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            font-size: 15px;
+          }
+
+          .MuiButton-root {
+            height: 40px;
+          }
         }
       }
 
@@ -139,8 +139,8 @@
       }
 
       .checkout {
-          display: flex;
-          flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
 
         .MuiButton-root {
           min-width: 0;
@@ -176,6 +176,23 @@
           }
         }
       }
+    }
+  }
+
+  // section => similar products
+  .singleFocused_similiarProducts {
+    border-top: 0.5px solid grey;
+    margin-top: 30px;
+    padding-top: 25px;
+
+    h2{
+      margin-bottom: 20px;
+    }
+
+    .singleFocused_similiarProducts__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
   }
 }
